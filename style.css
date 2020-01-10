@@ -1,0 +1,16 @@
+header h1 {
+    vertical-align: middle;
+}
+.hide-me {
+    display: none !important;
+}
+#btn-fetch, #btn-refresh {
+    float: right;
+    margin-right: 5px;
+}
+#btn-refresh {
+    display: none !important;
+}
+#btn-refreshed {
+    float: right;
+}

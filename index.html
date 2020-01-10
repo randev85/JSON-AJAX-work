@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JSON and AJAX</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="container">
+    <header class="jumbotron">
+        <h1 class="d-inline" >JSON and AJAX</h1>
+        <button type="button" class="btn btn-outline-primary d-inline" name="btn-refresh" id="btn-refresh">Refresh</button>
+        <button type="button" class="btn btn-outline-primary d-inline" name="btn-fetch" id="btn-fetch">Fetch Data</button>
+        <p class="p-2">I created this JSON and AJAX app by adding an event listener to the Fetch Data button. Once clicked, the function sends a GET request to https://learnwebcode.github.io/json-example/animals-1.json and returns data back to the app. As there are multiple items in the json object, I used a for loop to list the information in seperate parragraph tags. this information is then concatinated with strings of text to create sentences.</p>
+        <p class="p-2">After the Fetch button is pressed 3 times, a classList item of 'hide-me' is added to the button to hide it, and an id of 'btn-refreshed' is added to the refresh button. This then display the refresh button and allow the user to restart the app. </p>
+    </header>
+    <div id="info">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
